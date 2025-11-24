@@ -1,16 +1,13 @@
 import os
 
-# File to store expenses
 FILE_NAME = "expenses.txt"
 
-# Sample data to add automatically for beginners
 sample_expenses = [
     ["Food", 120],
     ["Travel", 50],
     ["Stationery", 80]
 ]
 
-# Create file with sample data if it doesn't exist
 if not os.path.exists(FILE_NAME):
     with open(FILE_NAME, "w") as f:
         for item in sample_expenses:
@@ -18,7 +15,6 @@ if not os.path.exists(FILE_NAME):
     print("Sample expenses added!\n")
 
 
-# Loading saved expenses
 expenses = []
 with open(FILE_NAME, "r") as f:
     for line in f:
@@ -26,7 +22,6 @@ with open(FILE_NAME, "r") as f:
         expenses.append([category, float(amount)])
 
 
-# Main loop
 while True:
     print("\n--- Student Expense Tracker ---")
     print("1. Add Expense")
@@ -62,4 +57,5 @@ while True:
         break
 
     else:
+
         print("Invalid choice. Try again.")
