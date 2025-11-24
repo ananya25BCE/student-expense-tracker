@@ -1,0 +1,4 @@
+Food,120
+Travel,50
+Stationery,80
+food,120.0
