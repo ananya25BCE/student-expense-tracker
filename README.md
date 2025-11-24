@@ -3,4 +3,6 @@ Summary  A straightforward Python command-line program that assists students in 
 
 Features include the ability to add expenses with category and amount, view saved expenses, view the total amount spent, handle files for long-term data storage, and create code that is easy for beginners to understand.
 
-Technologies Employed: Python 3; Lists and Dictionaries; Loops and Conditionals; File Handling 
+
+Technologies Employed:
+Python 3; Lists and Dictionaries; Loops and Conditionals.
